@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+div.head{
+    text-align: center;
+}
+body{
+    background-color: white;
+}
+div.item{
+    position: relative;
+  background-color: grey;
+  color: black;
+  float: left;
+  border: 1px solid black;
+   margin-bottom: 5px;
+   margin-top: 5px;
+   height: fit-content;
+   padding-left: 10px;
+   padding-bottom: 10px;
+}
+@media(min-width: 992px){
+div.chicken{
+      
+width: 28%;
+
+
+margin-left: 4%;
+margin-right: 2%;
+
+
+
+}
+div.beef{
+    
+    width: 28%;
+    
+   
+    margin-left: 2%;
+margin-right: 2%;
+
+
+}
+div.stew{
+    
+    width: 28%;
+    
+    
+    margin-left: 2%;
+margin-right: 4%;
+}
+
+
+}
+@media(min-width: 768px) and (max-width:991px){
+    div.chicken{
+      
+        width: 44%;
+        
+        
+        margin-left: 4%;
+        margin-right: 2%;
+        
+        
+        
+        }
+        div.beef{
+            
+            width: 44%;
+            
+           
+            margin-left: 2%;
+        margin-right: 4%;
+        
+        
+        }
+        div.stew{
+            
+            width: 92%;
+            
+            
+            margin-left: 4%;
+        margin-right: 4%;
+        }
+}
+div.menhead{
+    position: absolute;
+   top: 0px;
+   right: 0px;
+   
+    border: 1px solid black;
+    font-size:larger; 
+    color: black;
+    
+}
+div.chickhead{
+    background-color:pink;}
+div.beefhead{
+    background-color:red;}
+div.stewhead{
+    background-color:yellow;}
+
+div.cont{
+    margin-top: 10px;
+}

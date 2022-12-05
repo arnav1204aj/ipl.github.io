@@ -1,0 +1,48 @@
+
+body {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#header-nav{
+    background-color: gray;
+    color: black;
+    border-radius: 0;
+    border: 0;
+    width: 100%;
+}
+
+div.pull-left{
+   
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h1.main-head{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+h2.chead{
+    text-align: center;
+    font-weight: bolder;
+}
+div.chicken{
+    background-color: gray;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black; 
+   }
+   #nav-list a{
+    text-align: center;
+    color: black;
+  }

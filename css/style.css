@@ -1,0 +1,440 @@
+body {
+  background-color: rgb(9, 24, 71);
+  color: white;
+  font-size: 16px;
+  font-family: 'Teko', sans-serif;
+}
+#header-nav{
+ 
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+  width: 100%;
+}
+#logo-img {
+  background: url("2022-10-31.png") no-repeat;
+  width: 140px;
+  height: 100px;
+  margin: 10px 15px 10px 0px;
+}
+.navbar-brand h1{
+  
+  font-weight: bold;
+text-shadow: 1px 1px 1px rgb(9, 24, 71);
+margin-top: 35px;
+margin-bottom: 0;
+line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+#nav-list{
+  margin-top: 10px;
+}
+#nav-list a{
+  text-align: center;
+  color: rgb(9, 24, 71);
+}
+#nav-list a:hover{
+  background-color: silver;
+}
+#nav-list a span{
+  font-size: 1.5em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+ border: 1px solid rgb(9, 24, 71); 
+}
+.navbar-header button.navbar-toggle {
+  clear: left ;
+  
+}
+@media (max-width: 1200px){
+  h1 {
+    font-size: 32px;
+    
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 631px){
+ 
+  div.navbar-brand{
+    margin-top: -40px;
+  }
+
+}
+@media (max-width: 575px){
+  h1 {
+    font-size: 5vw;
+   
+  }
+  div.navbar-brand{
+    margin-top: -40px;
+  }
+
+}
+#collapsable-nav a{
+  font-size: 1.2em;
+}
+#collapsable-nav a span{
+  font-size: 1em;
+}
+
+div.carousel-caption h3 {
+  position: absolute;
+  bottom: 0px;
+  font-size: 4vw;
+  color: white;
+
+}
+div.item{
+  position: relative;
+}
+.container .item{
+  box-shadow: 0 0 50px black;
+  border: 5px solid white;
+  margin-bottom: 60px;
+}
+@media(min-width:1201px){
+  .container .sanju{
+    background: url("1200-675.png") no-repeat;
+    height: 675px;
+  } 
+  .container .kl{
+    background: url("1200-675-kl.png") no-repeat;
+    height: 675px;
+  } 
+  .container .um{
+    background: url("1200-675-um.png") no-repeat;
+    height: 675px;
+  } 
+}
+@media(min-width:992px) and (max-width:1200px){
+  .container .sanju{
+    background: url("992-558.png") no-repeat;
+    height: 558px;
+  } 
+  .container .kl{
+    background: url("992-558-kl.png") no-repeat;
+    height: 558px;
+  } 
+  .container .um{
+    background: url("992-558-um.png") no-repeat;
+    height: 558px;
+  } 
+}
+@media(min-width:768px) and (max-width:991px){
+  .container .sanju{
+    background: url("768-432.png") no-repeat;
+    height: 432px;
+  } 
+  .container .kl{
+    background: url("768-432-kl.png") no-repeat;
+    height: 432px;
+  } 
+  .container .um{
+    background: url("768-432-um.png") no-repeat;
+    height: 432px;
+  } 
+ 
+  
+}
+@media(max-width:767px){
+  .container .jumbotron{
+    margin-top: 30px;
+    padding: 0;
+  } 
+  div.player-info{
+    text-align: center;
+  }
+  div.menu-item-tile{
+    width: 100%;
+    text-align: center;
+  }
+  div.player-image{
+    display: inline-block;
+    margin: 0 auto;
+
+    
+  }
+  
+ 
+}
+
+#teams-tile, #ptable-tile, #schedule-tile, #news-tile, #stats-tile, #archives-tile, #RR-tile,#LSG-tile,#MI-tile,#GT-tile,#KKR-tile,#SRH-tile,#CSK-tile,#PBKS-tile,#RCB-tile,#DC-tile{
+  height: 450px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid white;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#RR-tile,#LSG-tile,#MI-tile,#GT-tile,#KKR-tile,#SRH-tile,#CSK-tile,#PBKS-tile,#RCB-tile,#DC-tile{
+  background-color:white;
+  border: 5px solid;
+  height: 225px;
+  margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+
+#RR-tile:hover{
+  border-color: rgb(242, 11, 165);
+  box-shadow: 0 1px 20px 1px rgb(242, 11, 165);
+  
+}
+
+#lsg-logo,#rr-logo,#csk-logo,#mi-logo,#gt-logo,#dc-logo,#rcb-logo,#kkr-logo,#pbks-logo,#srh-logo{
+  position: absolute;
+  /*left: auto;
+  right: auto;*/
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+ 
+}
+#lsg-logo,#csk-logo,#srh-logo,#mi-logo,#gt-logo,#pbks-logo{
+  top: 30px;
+}
+
+
+#LSG-tile:hover{
+  border-color: aqua;
+  box-shadow: 0 1px 20px 1px aqua;
+}
+#CSK-tile:hover{
+  border-color: rgb(255, 230, 0);
+  box-shadow: 0 1px 20px 1px rgb(255, 230, 0);
+}
+#MI-tile:hover{
+  border-color: rgb(11, 127, 165);
+  box-shadow: 0 1px 20px 1px rgb(11, 127, 165);
+}
+#DC-tile:hover{
+  border-color: rgb(32, 54, 227);
+  box-shadow: 0 1px 20px 1px rgb(32, 54, 227);
+}
+#KKR-tile:hover{
+  border-color: rgb(103, 5, 131);
+  box-shadow: 0 1px 20px 1px rgb(103, 5, 131);
+}
+#GT-tile:hover{
+  border-color: rgb(18, 18, 151);
+  box-shadow: 0 1px 20px 1px rgb(18, 18, 151);
+}
+#PBKS-tile:hover{
+  border-color: rgb(231, 8, 8);
+  box-shadow: 0 1px 20px 1px rgb(231, 8, 8);
+}
+#SRH-tile:hover{
+  border-color: rgb(235, 131, 12);
+  box-shadow: 0 1px 20px 1px rgb(235, 131, 12);
+}
+#RCB-tile:hover{
+  border-color: rgb(157, 37, 37);
+  box-shadow: 0 1px 20px 1px rgb(157, 37, 37);
+}
+
+#teams-tiles{
+  background-color: white;
+  padding: 60px;
+  border: 5px solid orange;
+  margin-bottom: 60px;
+}
+
+#teams-tile:hover, #ptable-tile:hover, #schedule-tile:hover, #news-tile:hover, #stats-tile:hover, #archives-tile:hover{
+  box-shadow: 0 1px 5px 1px black;
+  border: 2px solid rgb(15, 178, 233);
+
+}
+#RR-tile,#LSG-tile,#MI-tile,#GT-tile,#KKR-tile,#SRH-tile,#CSK-tile,#PBKS-tile,#RCB-tile,#DC-tile{
+  border-color: rgb(9, 24, 71);
+}
+#teams-head{
+  font-size: 3vw;
+  color:rgb(9, 24, 71) ;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* @media(max-width:555px) and (min-width:520px){
+  #lsg-logo,#csk-logo,#srh-logo,#mi-logo,#gt-logo,#pbks-logo,#dc-logo{
+    top: 40px;
+
+  }
+  #rr-logo,#rcb-logo,#kkr-logo{
+    top: 10px;
+  }}
+  @media(max-width:521px) and (min-width:400px){
+    #lsg-logo,#csk-logo,#srh-logo,#mi-logo,#gt-logo,#pbks-logo,#dc-logo{
+      top: 40px;
+  
+    }
+    #rr-logo,#rcb-logo,#kkr-logo{
+      top: 10px;
+    }}
+
+  @media(max-width:401px){
+    #lsg-logo,#csk-logo,#srh-logo,#mi-logo,#gt-logo,#pbks-logo,#dc-logo{
+     
+      height: 150px;
+  
+    }
+    #rr-logo,#rcb-logo,#kkr-logo{
+      
+      height: 150px;
+    }
+ 
+} */
+#schedule{
+  width: 50%;
+  background-color: white;
+  margin: auto ;
+  
+ border: 5px solid orange;
+ border-radius: 5%;
+}
+div.prev-game,div.next-game,div.later-game{
+  text-align: center;
+ 
+}
+#stad, #res, #vs{
+  font-size: 2vw;
+  color: rgb(9, 24, 71) ;
+}
+#vs{
+  color: orange;
+}
+#t1,#t2{
+  font-size: 3vw;
+}
+div.rhead{
+  color:rgb(242, 11, 165) ;
+}
+div.mhead{
+  color: rgb(11, 127, 165) ;
+}
+div.ghead{
+  color: rgb(18, 18, 151) ;
+}
+div.lhead{
+  color: aqua ;
+}
+div.chead{
+  color: rgb(255, 230, 0) ;
+}
+div.dhead{
+  color: rgb(32, 54, 227) ;
+}
+#fix{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 3vw;
+}
+#sblock{
+  padding-bottom: 40px;
+}
+
+.panel-footer{
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: orange;
+  border-top: 0;
+}
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+#contact > span{
+  font-size: 1.3em;
+}
+div.thead > h2{
+  text-align: center;
+  font-size: 3.5em;
+  color: rgb(242, 11, 165);
+  
+}
+div.rrpic{
+  display: inline-block;
+    margin: 0 auto;
+}
+div.thead > h3{
+  text-align: center;
+  font-family: cursive;
+  color:rgb(242, 11, 165)  ;
+  margin-bottom: 30px;
+}
+div.contrr{
+  margin-top: 0px;
+}
+
+div.player-image{
+  height: 200px;
+  width: 200px;
+ 
+}
+
+div.menu-item-tile{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.team-info{
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+  border-radius: 10%;
+  
+}
+div.ti{
+  padding: 40px;
+}
+h2.info-head{
+  color: rgb(9, 24, 71) ;
+  font-size: 1.5em;
+}
+span.blue{
+  color: rgb(9, 24, 71) ;
+}
+span.tc{
+  color: rgb(242, 11, 165);
+}
+div.contrr{
+  width: 100%;
+  text-align: center;
+}
+div.squad{
+ width: 40%;
+  
+    display: inline-block;
+    margin: 0 auto;
+
+
+    
+  
+}
+
+#squads{
+  border: 5px solid  rgb(242, 11, 165);
+}
+div.player-info{
+  color:rgb(242, 11, 165) ;
+  text-align: center;
+}
+a.teamc{
+  color: rgb(242, 11, 165);
+}
+
+
+
+
+
+
+
+
+  
